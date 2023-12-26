@@ -203,6 +203,7 @@ def ytdownload(file):
             continue
 # 둘다별로임
 ## 바뀐거 알고싶다
+## 아 diff어떻게  쓰는거야
 
 file = input("엑셀 파일이름을 입력해주세요")
 dataframe = ytdownload(file)
