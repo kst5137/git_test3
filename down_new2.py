@@ -201,10 +201,8 @@ def ytdownload(file):
             workbook.save('youtube_list.xlsx')
             workbook.close()
             continue
-# 둘다별로임
-## 바뀐거 알고싶다
-## 아 diff어떻게  쓰는거야
 
+#zzz
 file = input("엑셀 파일이름을 입력해주세요")
 dataframe = ytdownload(file)
 os.system('pause')
