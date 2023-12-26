@@ -16,6 +16,8 @@ import openpyxl
 start_time = None
 debug = True
 #여기도 있다면?
+## 위에 내용추가합니다~
+
 def reset_timer(stream, chunk, bytes_remaining):
     global start_time
     if start_time is None:
