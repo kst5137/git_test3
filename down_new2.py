@@ -202,6 +202,7 @@ def ytdownload(file):
             workbook.close()
             continue
 # 둘다별로임
+## 바뀐거 알고싶다
 
 file = input("엑셀 파일이름을 입력해주세요")
 dataframe = ytdownload(file)
